@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <h2>Контакти</h2>
+    <p>Хочете замовити створення сайту або дізнатися ціну на розробку мобільних додатків, просто зв'яжіться з нами</p>
+        <form action="https://formspree.io/meqjlyjn" method="post" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Ваше Імя" required >
+            <input type="email" name="email" placeholder="email" required >
+                <br>
+            <select>
+                <option>UA +380</option>
+                <option>USA +1</option>
+            </select>
+            <input type="number" name="number" placeholder="Телефон" required >
+                <br>
+            <label>Оберіть тип сайту</label>
+                <br>
+            <label>Корпоративний
+                <input type="radio" name="kind" value="Корпоративний" >
+            </label>
+            <label>Лендінг пейдж
+                <input type="radio" name="kind" value="Лендінг пейдж" >
+            </label>
+            <label>Магазин
+                <input type="radio" name="kind" value="Магазин">
+            </label>
+                <br>
+            <label>Ваш бюджет</label>
+                <br>
+            <label>100$
+                <input type="checkbox" name="money" value="100" >
+            </label>
+            <label>100$-500$
+                <input type="checkbox" name="money" value="500" >
+            </label>
+            <label>500$-1000$
+                <input type="checkbox" name="money" value="1000" >
+            </label>
+                <br>
+            <textarea name="coments" placeholder="Ваше повідомлення" rows="5"></textarea>
+                <br>
+            <label>Завантажте свій макет</label>
+            <input type="file" name="maket">
+            <br>
+            <input type="submit" name="send" value="Надіслати">
+        </form>
+    </main>
+</body>
+</html>
